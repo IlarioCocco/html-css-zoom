@@ -145,7 +145,8 @@ footer,
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 5px;
-    background-color: rgba(36,38,40,255);
+    background-color: rgb(0, 0, 0); /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(44, 44, 44), rgb(20, 20, 20));
 }
 .footer-center-text {
     display: flex;
