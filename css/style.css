@@ -151,8 +151,20 @@ footer,
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: rgb(180, 180, 180);
 }
 
+.footer-left-stopvideo {
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+    position: relative;
+    margin-left: 40px;
+}
+ 
 
 .footer-left-text, .footer-center-text {
     color: rgb(180, 180, 180);
@@ -172,8 +184,6 @@ footer,
     font-size: 15px;
 }
 
-
-
 .trentaquattro {
     position: absolute;
     font-size: 14px;
@@ -181,20 +191,36 @@ footer,
     left: 200px;
 }
 
-.micro-angle {
+.micro-angle,
+.micro-angle-partecipants,
+.micro-angle-share,
+.micro-angle-stop {
     position: absolute;
     font-size: 16px;
-    bottom: 28px;
-    left: 40px;
+    bottom: 26px;
+    left: 42px;
 }
 
+.micro-angle-stop{
+    left: 65px;
+}
 
+.micro-angle-partecipants {
+    left: 225px;
+}
 
+.share-screen, .micro-angle-share {
+    color: chartreuse;
+}
 
+.micro-angle-share {
+    left: 430px;
+}
 
-
-
-
+.plus-reactions {
+    position: absolute;
+    font-size: 40%;
+}
 
 .end {
     background-color: rgb(255, 0, 51);
