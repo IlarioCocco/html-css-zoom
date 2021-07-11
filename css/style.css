@@ -214,7 +214,7 @@ footer,
 }
 
 .micro-angle-share {
-    left: 430px;
+    left: 445px;
 }
 
 .plus-reactions {
@@ -233,6 +233,26 @@ footer,
 }
 
 
+.pausa-stop {
+    background-color:#aaabac;
+    width: 30px;
+    margin-left: 40px;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 6px;
+    position: absolute;
+    left: 570px;
+}
 
+.bottone-giu {
+	position: relative;
+	background-color: rgb(0, 0, 0);
+	margin-left: 1px;
+	width: 12px;
+	height: 12px;
+    position: absolute;
+    left: 8px;
+}
 
-    
