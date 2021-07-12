@@ -88,11 +88,13 @@ header, .header-Nav-Recording,.header-Nav-View {
     font-weight: bold;
 }
 
+
 /* section main */
 main {
     /* display: flex; */
     background-color: blue; 
     position: relative;
+    /* height: calc(100vh - 100px); */
 }
 
 .bkg{
@@ -121,15 +123,16 @@ main {
 }
 
 
-
-
 .container-main {
     display: flex;
     justify-content: center; 
     flex-wrap: wrap;
     background-color: rgba(26,26,26,255);
     padding-bottom: 5px;
+    height: calc(100vh - 155px);
+    overflow: auto;
 }
+
 
 .square {
     margin-left: 4px;
@@ -197,7 +200,6 @@ footer,
     margin-left: 40px;
 }
  
-
 .footer-left-text, .footer-center-text {
     color: rgb(180, 180, 180);
     text-decoration: none;
@@ -264,16 +266,15 @@ footer,
     font-weight: bold;
 }
 
-
 .pausa-stop {
     background-color:#aaabac;
     width: 30px;
-    margin-left: 40px;
+    margin-left: 44px;
     padding: 11px;
     display: flex;
     align-items: center;
     border-radius: 5px;
-    margin-top: 6px;
+    margin-top: 8px;
     position: absolute;
     left: 570px;
 }
@@ -281,7 +282,7 @@ footer,
 .bottone-giu {
 	position: relative;
 	background-color: rgb(0, 0, 0);
-	margin-left: 2px;
+	margin-left: 4px;
 	width: 10px;
 	height: 10px;
     position: absolute;
